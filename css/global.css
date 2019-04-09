@@ -1,8 +1,15 @@
 body{
-  --main-bg-color: rgb(255, 94, 60);
+  /* Set of variables that specify color. Variables set here can also be used in individual pages stylesheets
+     Variables in css must be prefixed with '--'*/
+  --main-bg-color: rgb(255, 0, 0);
   --main-text-color: rgb(255, 243, 130);
   --active-highlight: rgb(255, 222, 0);
+  --active-text-color: rgb(85, 85, 85);
+  --navbar-text-color: rgb(255, 255, 255);
+  --navbar-bg-color: rgb(255, 0, 0);
+  font-family: "Roboto", Times, sans-serif;
 }
+
 
 #navbarmin{
   color: var(--main-text-color);
@@ -21,15 +28,14 @@ body{
 
 #navbarmin li {
   display: block;
-  color: rgb(255, 255, 255);
+  color: var(--navbar-text-color);
   padding: 8px 16px;
   text-decoration: none;
   transition: 0.3s;
 }
 
 #navbar{
-  color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+  background-color: var(--navbar-bg-color);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -50,19 +56,18 @@ body{
 
 #navbar li a{
   display: block;
-  color: rgb(255, 255, 255);
+  color:  var(--navbar-text-color);
   padding: 8px 16px;
   text-decoration: none;
   transition: 0.3s;
 }
-
 
 #navbar li a:hover{
   background-color: #555;
   color: white;
 }
 
-.active {
+#navbar li a.active, #navbarmin li.active, .active {
+  color: var(--active-text-color);
   background-color: var(--active-highlight);
-  color: white;
 }

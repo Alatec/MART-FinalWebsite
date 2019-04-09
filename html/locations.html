@@ -3,15 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Mr. Bolatz Pizza and Kebap</title>
-    <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="css/indexstyle.css">
+    <!-- <link rel="stylesheet" href="../css/global.css"> -->
+    <link rel="stylesheet" href="../css/locationstyle.css">
+    <script>
+      function openNav() {
+        document.getElementById("navbar").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("navbar").style.width = "0";
+      }
+    </script>
   </head>
   <body>
-    <ul class="navbar">
-      <li><a  href="../index.html">Home</a></li>
-      <li><a class="active" href="locations.html">Locations</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="about.html">About Us</a></li>
-    </ul>
+    <div class="navbarmanager">
+      <!-- <span style="font-size:30px;cursor:pointer" onmouseover="openNav()"> open</span> -->
+      <ul id="navbarmin" onmouseover="openNav()">
+        <li>&#9776;</li>
+        <li >H</li>
+        <li class="active">L</li>
+        <li>M</li>
+        <li>A</li>
+      </ul>
+      <ul id="navbar" onmouseleave="closeNav()">
+        <li><a href="../index.html">Home</a></li>
+        <li><a class="active" href="locations.html">Locations</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
   </body>
 </html>

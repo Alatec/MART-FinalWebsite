@@ -1,5 +1,5 @@
 body{
-  /* Set of variables that specify color. Variables set here can also be used in individual pages stylesheets
+  /* Set of variables that specify color. Variables set here can also be used in individual page stylesheets
      Variables in css must be prefixed with '--'*/
   --main-bg-color: rgb(255, 0, 0);
   --main-text-color: rgb(255, 243, 130);
@@ -10,6 +10,9 @@ body{
   font-family: "Roboto", Times, sans-serif;
 }
 
+#navbarmanager{
+  float: left;
+}
 
 #navbarmin{
   color: var(--main-text-color);
@@ -47,7 +50,8 @@ body{
   left: 0;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 38px;
+  white-space: nowrap;
 }
 
 #navbar li{

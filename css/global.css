@@ -8,6 +8,9 @@ body{
   --navbar-text-color: rgb(255, 255, 255);
   --navbar-bg-color: rgb(255, 0, 0);
   font-family: "Roboto", Times, sans-serif;
+  width: 97%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 #navbarmanager{
@@ -76,6 +79,21 @@ body{
   background-color: var(--active-highlight);
 }
 .content{
-  margin-left: 50px;
-  width: 1000px;
+  padding: 0;
+  padding-left: 50px;
+  float: left;
+  margin: 0;
+  top: 0;
+  bottom: 0;
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }

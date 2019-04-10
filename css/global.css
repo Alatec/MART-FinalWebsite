@@ -18,8 +18,8 @@ body{
 }
 
 #navbarmin{
-  color: var(--main-text-color);
-  background-color: var(--main-bg-color);
+  color: rgb(255, 243, 130);
+  background-color: rgb(255, 0, 0);
   list-style-type: none;
   width: 50px;
   top: 0;
@@ -76,7 +76,7 @@ body{
 
 #navbar li a.active, #navbarmin li.active, .active {
   color: var(--active-text-color);
-  background-color: var(--active-highlight);
+  background-color: rgb(255, 222, 0);
 }
 .content{
   padding: 0;

@@ -1,7 +1,7 @@
 @import url("global.css");
 
 body{
-  --text-background: rgba(154, 142, 100, 0.45);
+  /* --text-background: rgba(154, 142, 100, 0.45); */
 }
 
 .content {
@@ -14,7 +14,7 @@ body{
 
 h1, h2, p{
   color: white;
-  background-color: var(--text-background);
+  background-color: rgba(154, 142, 100, 0.45);;
   width: 800px;
   margin: 50px;
 }

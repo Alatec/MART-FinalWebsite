@@ -7,7 +7,7 @@ body{
   --active-text-color: rgb(85, 85, 85);
   --navbar-text-color: rgb(255, 255, 255);
   --navbar-bg-color: rgb(255, 0, 0);
-  font-family: "Roboto", Times, sans-serif;
+  font-family: sans-serif;
   width: 97%;
   height: 100%;
   overflow-x: hidden;
@@ -100,6 +100,7 @@ body{
   background-position: center;
   background-repeat: repeat-y;
   background-size: cover;
+
 
 
 }

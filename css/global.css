@@ -75,3 +75,7 @@ body{
   color: var(--active-text-color);
   background-color: var(--active-highlight);
 }
+.content{
+  margin-left: 50px;
+  width: 1000px;
+}

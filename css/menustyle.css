@@ -33,22 +33,29 @@
 
 .price{
   font-style: italic;
-  font-family:georgia;
-  font-size: 18px;
+}
+
+.sizes{
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  color:white;
 }
 
 h2{
   text-align: center;
-  font-size: 25px;
+  font-size: 26px;
 }
 
 h3{
+  font-size: 22px;
   color:yellow;
 }
 
-p {
-  font-size: 18px;
-  color:white;
+h4{
+  font-size: 20px;
 }
 
 hr{

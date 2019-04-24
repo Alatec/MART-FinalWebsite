@@ -9,26 +9,28 @@ img{
 }
 
 .content{
-  background-image: url("../images/locations-back.jpg");
+  background-image: url("../images/index-back.jpg");
   padding:15px;
   /*height: 110%;*/
   /*this is what causes the white background*/
 }
 
-.text{
+.inner{
   width: 50%;
   margin: auto;
   color: white;
-  background-color: rgba(154, 142, 100, 0.5);
+  background-color: rgba(154, 142, 100, 0.55);
 }
 
 h1{
   padding: 10px;
   font-size: 60px;
   color: white;
+  font-family: arial;
 }
 
 h2{
+  font-family: arial;
   padding: 10px;
   font-size: 40px;
   color: white;

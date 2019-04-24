@@ -2,21 +2,26 @@
 
 body{
   /*--text-background: rgba(154, 142, 100, 0.45);*/
+  font-family: arial;
 }
 
 .content {
   /* The image used */
   background-image: url("../images/pizza-back1-blur.jpg");
-  height: 100%;
+}
 
-
+.inner{
+  width: 50%;
+  margin: auto;
+  color: white;
+  background-color: rgba(154, 142, 100, 0.55);
+  padding-left:20px;
+  padding-right: 20px;
+  padding-bottom: 5px
 }
 
 h1, h2, p{
   color: white;
-  background-color: rgba(154, 142, 100, 0.45);
-  width: 800px;
-  margin: 50px;
 }
 
 h1{

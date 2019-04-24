@@ -11,6 +11,7 @@ img{
 .content{
   background-image: url("../images/index-back.jpg");
   padding:15px;
+  height: 120%;
   /*height: 110%;*/
   /*this is what causes the white background*/
 }
@@ -18,8 +19,11 @@ img{
 .inner{
   width: 50%;
   margin: auto;
-  color: white;
-  background-color: rgba(154, 142, 100, 0.55);
+  padding-left:30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(135,135,135, 0.5);
 }
 
 h1{

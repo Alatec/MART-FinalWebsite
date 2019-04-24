@@ -3,4 +3,21 @@
 .content{
   background-image: url("../images/locations-back.jpg");
   height: 100%;
+  color: rgb(255, 255, 255);
+}
+
+.inner{
+  margin: auto;
+  padding: 10px;
+  width: 75%;
+  overflow: auto;
+}
+
+.city img{
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: 10;
+  overflow: auto;
+  float: left;
 }

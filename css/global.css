@@ -80,7 +80,6 @@ body{
 }
 .content{
   padding: 0;
-  padding-left: 50px;
   float: left;
   margin: 0;
   /* position: fixed; */
@@ -88,8 +87,6 @@ body{
   top: 0px; /* Header Height */
   bottom: 0px; /* Footer Height */
   text-align: center;
-
-  height: 500%;
   width: 100%;
   z-index: -1;
 

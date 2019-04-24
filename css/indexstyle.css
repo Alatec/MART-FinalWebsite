@@ -9,27 +9,33 @@ img{
 }
 
 .content{
-  background-image: url("../images/kebap-back1-blur.jpg");
+  background-image: url("../images/locations-back.jpg");
+  padding:15px;
+  /*height: 110%;*/
+  /*this is what causes the white background*/
 }
+
 .text{
   width: 50%;
   margin: auto;
+  color: white;
+  background-color: rgba(154, 142, 100, 0.5);
 }
 
 h1{
+  padding: 10px;
   font-size: 60px;
   color: white;
-  background-color: rgba(154, 142, 100, 0.5);
 }
 
 h2{
+  padding: 10px;
   font-size: 40px;
   color: white;
-  background-color: rgba(154, 142, 100, 0.5);
 }
 
 p{
+  padding: 10px;
   color: rgb(255, 255, 255);
-  background-color: rgba(154, 142, 100, 0.5);
   font-size: 20px;
 }

@@ -34,13 +34,14 @@
 }
 
 .cityText{
-  float: left;
+  /* float: left; */
   padding-left: 20px;
   text-align: left;
+  vertical-align:middle;
 }
 
-.cityText p{
+/* .cityText p{
   margin-top: 0px;
   padding-top: 0px;
-  font-size: 20px;
-}
+  font-size: 16px;
+} */

@@ -13,20 +13,20 @@
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(50,50,50, 0.75);
   color:white;
 }
 
 .left{
+  display: inline-block;
   float:left;
-  padding:5px;
   text-align: left;
   width:50%;
-  margin-right: 2px;
+  padding:0;
 }
 
 .right{
-  padding:5px;
+  display: inline-block;
+  width:50%;
 }
 
 h2{

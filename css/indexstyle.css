@@ -12,7 +12,6 @@ img{
   background-image: url("../images/index-back.jpg");
   height: 120%;
   padding:15px;
-  
   /*height: 110%;*/
   /*this is what causes the white background*/
 }
@@ -24,7 +23,6 @@ img{
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgba(50,50,50, 0.75);
   border-radius:25px;
 }
 

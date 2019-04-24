@@ -98,3 +98,7 @@ body{
   background-repeat: repeat-y;
   background-size: cover;
 }
+
+.inner{
+  background-color: rgba(50,50,50, 0.75);
+}

@@ -1,4 +1,4 @@
-@import url("global.css");
+
 .content{
   background-image: url("../images/menu-back.jpg");
   height: 200%;
@@ -6,7 +6,7 @@
 }
 
 .inner{
-  
+
   width: 50%;
   margin: auto;
   padding-left:30px;

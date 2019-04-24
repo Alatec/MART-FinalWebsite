@@ -21,14 +21,14 @@
   display: inline-block;
   float:left;
   text-align: left;
-  width:50%;
+  width:47%;
   padding:0;
   overflow: auto;
 }
-
 .right{
   display: inline-block;
   width:50%;
+  text-align: left;
 }
 
 .price{
@@ -59,7 +59,7 @@ h4{
 }
 
 hr{
-  width: 40%;
+  width: 55%;
   border:gray;
   height: 2px;
   background-color: gray;

@@ -10,8 +10,6 @@ img{
   background-image: url("../images/index-back.jpg");
   height: 120%;
   padding:15px;
-  /*height: 110%;*/
-  /*this is what causes the white background*/
 }
 
 .inner{

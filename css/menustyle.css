@@ -1,1 +1,5 @@
 @import url("global.css");
+.content{
+  background-image: url("../images/menu-back.jpg");
+  height: 100%;
+}

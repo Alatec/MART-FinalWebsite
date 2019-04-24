@@ -2,33 +2,34 @@
 
 
 img{
-  width: 540px;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .content{
   background-image: url("../images/kebap-back1-blur.jpg");
-  height: 100%;
+}
+.text{
+  width: 50%;
+  margin: auto;
 }
 
 h1{
-  margin: 50px;
   font-size: 60px;
   color: white;
   background-color: rgba(154, 142, 100, 0.5);
 }
 
 h2{
-  margin: 50px;
   font-size: 40px;
   color: white;
   background-color: rgba(154, 142, 100, 0.5);
 }
 
 p{
-  margin-left: 50px;
   color: rgb(255, 255, 255);
   background-color: rgba(154, 142, 100, 0.5);
   font-size: 20px;
-  width: 800px;
 }

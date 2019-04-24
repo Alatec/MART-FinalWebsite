@@ -1,1 +1,6 @@
 @import url("global.css");
+
+.content{
+  background-image: url("../images/locations-back.jpg");
+  height: 100%;
+}

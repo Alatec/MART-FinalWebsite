@@ -15,10 +15,12 @@ body{
   width: 50%;
   margin: auto;
   color: white;
-  background-color: rgba(154, 142, 100, 0.55);
+  background-color: rgba(50, 50, 50, 0.75);
   padding-left:20px;
   padding-right: 20px;
-  padding-bottom: 5px;
+  padding-bottom: 3px;
+  text-align: left;
+  border-radius:25px;
 }
 
 h1, h2, p{
@@ -26,7 +28,7 @@ h1, h2, p{
 }
 
 h1{
-
+  text-align: center;
   font-size: 60px;
 
 }

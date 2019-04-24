@@ -7,7 +7,7 @@ body{
   --active-text-color: rgb(85, 85, 85);
   --navbar-text-color: rgb(255, 255, 255);
   --navbar-bg-color: rgb(255, 0, 0);*/
-  font-family: "Roboto", Times, sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 97%;
   height: 100%;
   overflow-x: hidden;
@@ -70,8 +70,8 @@ body{
 }
 
 #navbar li a:hover{
-  background-color: #555;
-  color: white;
+  background-color: rgb(255, 222, 0);
+  color: rgb(85, 85, 85);
 }
 
 #navbar li a.active, #navbarmin li.active, .active {

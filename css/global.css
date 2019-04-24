@@ -101,4 +101,5 @@ body{
 
 .inner{
   background-color: rgba(50,50,50, 0.63);
+  border-radius: 20px;
 }

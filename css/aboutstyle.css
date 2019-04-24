@@ -1,10 +1,5 @@
 @import url("global.css");
 
-body{
-  /*--text-background: rgba(154, 142, 100, 0.45);*/
-  font-family: arial;
-}
-
 .content {
   /* The image used */
   background-image: url("../images/kebap-back1.jpg");

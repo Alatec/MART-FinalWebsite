@@ -7,9 +7,8 @@ body{
   --active-text-color: rgb(85, 85, 85);
   --navbar-text-color: rgb(255, 255, 255);
   --navbar-bg-color: rgb(255, 0, 0);*/
-  font-family: "Roboto", sans-serif;
-  width: 97%;
-  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  height: 100%-;
   overflow-x: hidden;
 }
 
